@@ -1,15 +1,58 @@
-import React from "react";
-import "../styles/Navbar.css";
-
-// By importing the Navbar.css file, it is added to the DOM whenever this component loads
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import "../styles/Navbar.css"
 
 function Navbar() {
   return (
-    <nav style={{ backgroundColor: "green", height: "60px", display: "flex", justifyContent: "flex-end"}}>
-      <a style= {{
-        color: "white", fontSize: "1.3rem", margin: "5px", lineHeight: "3"
-      }}href="/">Welcome</a>
-    </nav>
+    <ul className="nav justify-content-center" style ={{backgroundColor: "whitesmoke"}}>
+      <li className="nav-item">
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >Home
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink
+          to="about"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >About Me
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink
+          to="projects"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >Projects
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink
+          to="contact"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >Contact
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink
+          to="contact/learn"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >Learn
+        </NavLink>
+      </li>
+    </ul>
   );
 }
 

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Weather Dashboard",
+        "image": "weather-dashboard.png",
+        "description": "A simple weather app that provides a 5-day forecast and saves to local storage."
+    },
+    {
+        "id": 2,
+        "title": "Calorie App",
+        "image": "calorie-app.png",
+        "description": "A webpage designed for people who are health conscious to track calories and recipes that they eat."
+    },
+    {
+        "id": 3,
+        "title": "README Generator",
+        "image": "readme-generator.png",
+        "description": "A command-line-interface application that generates a professional and consise README for any repositories."
+    },
+    {
+        "id": 4,
+        "title": "Team HTML Generator",
+        "image": "team-html-generator.png",
+        "description": "A command-line interface that automatically generates an HTML file to help keep track of employees info."
+      }
+]
