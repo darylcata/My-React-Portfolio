@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Project from "../Project";
-import assignments from "../../project.json"; // need to make project.json
+import assignments from "../../project.json"; 
 import Wrapper from "../Wrapper/Wrapper";
 import Title from "../Title/Title";
 
@@ -17,6 +17,8 @@ function Projects() {
           title={p.title}
           image={p.image}
           description={p.description}
+          // make a button to take each card to deployed application or github
+          
           // occupation={f.occupation}
           // location={f.location}
           // doRemove = {function() {removeFriend(f.id)}}
