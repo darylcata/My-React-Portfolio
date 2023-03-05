@@ -4,7 +4,7 @@ import "../styles/Navbar.css"
 
 function Navbar() {
   return (
-    <ul className="nav justify-content-center" style ={{backgroundColor: "whitesmoke"}}>
+    <ul className="nav justify-content-center" style ={{backgroundColor:"black"}}>
       <li className="nav-item">
         <NavLink
           to="/"
