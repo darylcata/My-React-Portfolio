@@ -1,6 +1,5 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-// import Section from "./components/Section";
 import Navbar from "./components/Navbar";
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -21,7 +20,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
-          {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
         {/* <Section /> */}

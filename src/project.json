@@ -3,24 +3,48 @@
         "id": 1,
         "title": "Weather Dashboard",
         "image": "weather-dashboard.png",
-        "description": "A simple weather app that provides a 5-day forecast and saves to local storage."
+        "description": "A simple weather app that provides a 5-day forecast and saves to local storage.",
+        "website": "https://darylcata.github.io/Weather-forecast-challenge/",
+        "github": "https://github.com/darylcata/Weather-forecast-challenge"
     },
     {
         "id": 2,
         "title": "Calorie App",
         "image": "calorie-app.png",
-        "description": "A webpage designed for people who are health conscious to track calories and recipes that they eat."
+        "description": "A webpage designed for people who are health conscious to track calories and recipes that they eat.",
+        "website": "https://darylcata.github.io/calory-app/",
+        "github": "https://github.com/darylcata/calory-app"
     },
     {
         "id": 3,
         "title": "README Generator",
         "image": "readme-generator.png",
-        "description": "A command-line-interface application that generates a professional and consise README for any repositories."
+        "description": "A command-line-interface application that generates a professional and consise README for any repositories. (No live page)",
+        "website": "",
+        "github": "https://github.com/darylcata/README-Generator"
     },
     {
         "id": 4,
         "title": "Team HTML Generator",
         "image": "team-html-generator.png",
-        "description": "A command-line interface that automatically generates an HTML file to help keep track of employees info."
-      }
+        "description": "A command-line interface that automatically generates an HTML file to help keep track of employees info. (No live page)",
+        "website": "",
+        "github": "https://github.com/darylcata/Team-html-generator"
+    },
+    {
+        "id": 5,
+        "title": "Daily Planner",
+        "image": "daily-planner.png",
+        "description": "A webpage that tracks your day to day activities and still renders data even when browser is closed.",
+        "website": "https://darylcata.github.io/Daily-planner-challenge/",
+        "github": "https://github.com/darylcata/Daily-planner-challenge"
+    },
+    {
+        "id": 6,
+        "title": "Coding Quiz App",
+        "image": "coding-quiz.png",
+        "description": "A webpage that uses exercises functions along with local storage, set intervals, objects and for loops",
+        "website": "https://darylcata.github.io/Coding-Quiz-show/",
+        "github": "https://github.com/darylcata/Coding-Quiz-show"
+    }
 ]

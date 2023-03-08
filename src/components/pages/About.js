@@ -7,8 +7,9 @@ function About() {
     <div>
       <Title>About Me</Title>
       <div className="card" style={{width: "18rem"}}>
-        <img src={photo} className="card-img-top" alt="profile-picture" />
+        <img src={photo} className="card-img-top" alt="profile-face" />
       </div>
+      <h1>Work hard and smart.</h1>
       <p>
         Born and raised in the Philippines I grew up with 5 siblings and I being
         third from the eldest.

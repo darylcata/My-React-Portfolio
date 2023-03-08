@@ -46,3 +46,13 @@
     color: #d50000;
   }
   
+  .btn {
+    margin: 3px !important;
+  }
+  .btn-primary {
+    background-color: #393030 !important;
+  }
+
+  .btn:hover{
+    background-color: black !important;
+  }

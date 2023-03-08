@@ -17,6 +17,8 @@ function Projects() {
           title={p.title}
           image={p.image}
           description={p.description}
+          website={p.website}
+          github={p.github}
           // make a button to take each card to deployed application or github
           
           // occupation={f.occupation}
