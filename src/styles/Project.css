@@ -50,7 +50,8 @@
     margin: 3px !important;
   }
   .btn-primary {
-    background-color: #393030 !important;
+    background-color: #ADD8E6 !important;
+    text-shadow: 0 0 3px #000000, 0 0 5px #1f1fbc;
   }
 
   .btn:hover{
